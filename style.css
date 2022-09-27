@@ -1,0 +1,36 @@
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&display=swap');
+body{
+    font-family: 'IM Fell French Canon', serif;  
+}
+#showcase{
+    background-image: url("Images/header.jpg");
+    height: 95vh;
+    background-size: cover;
+    background-position:center ;
+}
+.card-text{
+    margin: 20px;
+    padding-bottom: 40px;
+} 
+ .learn-more-tag{
+    padding: 40px 0 15px 40px;
+    margin: 40px 0 15px 40px;
+    /* border: 10px solid red; */
+/* media Queries */
+ }
+@media (min-width:992px){
+    .card-text{
+        height: 110px3
+    }
+}
+@media(min-width: 1200px){
+    .card-text{
+        height: 90px;
+    }
+}
+@media (min-width: 1400px){
+    .card-text{
+        height: 70px;
+    }
+}
